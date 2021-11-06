@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456448026641",
+    "project_id": "ai-attendance-620e0",
+    "storage_bucket": "ai-attendance-620e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456448026641:android:37c6f44de65cbab94aa9b0",
+        "android_client_info": {
+          "package_name": "a007vipul.com.attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456448026641-vqe4urfslto55lse2sr1s22rdmojnndp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwi10BQ6am6ZsXobKCSJWnoXSCwTVAbSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456448026641-vqe4urfslto55lse2sr1s22rdmojnndp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
