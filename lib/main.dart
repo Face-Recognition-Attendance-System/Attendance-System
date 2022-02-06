@@ -3,6 +3,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'pages/login_page.dart';
 import 'pages/dashboard.dart';
+import 'pages/calendar.dart';
+import 'pages/settings.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,8 +38,13 @@ class AttendanceApp extends StatelessWidget {
             routes: {
               'login' : (context) => Login(),
               'dashboard': (context) => const Dashboard(),
+              'calendar' : (context) => Calendar(),
+              'settings' : (context) => Settings()
             },
-            theme: ThemeData.dark(),
+            theme: ThemeData.dark().copyWith(
+                primaryColor: const Color(0xFF0A0E21),
+                scaffoldBackgroundColor : const Color(0xFF0A0E21)
+            ),
             home: Login(),
           );
         }

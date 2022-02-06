@@ -61,6 +61,7 @@ class _LoginState extends State<Login> {
     passController.dispose();
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -68,6 +69,7 @@ class _LoginState extends State<Login> {
         title: const Text(
             'LOGIN PAGE'
         ),
+        backgroundColor: const Color(0xFF0A0E21),
       ),
 
       body: Form(
@@ -100,6 +102,7 @@ class _LoginState extends State<Login> {
                 },
               ),
             ),
+
             Container(
               margin: const EdgeInsets.fromLTRB(25.0, 0.0, 25.0, 10.0),
               child: TextFormField(
@@ -124,6 +127,7 @@ class _LoginState extends State<Login> {
                 },
               ),
             ),
+
             Center(
               child: ElevatedButton(
                 onPressed: (){
@@ -136,7 +140,13 @@ class _LoginState extends State<Login> {
                   }
                 },
                 child: const Text(
-                    'Login'
+                  'Login',
+                  style: TextStyle(
+                    fontSize: 20.0
+                  ),
+                ),
+                style: ElevatedButton.styleFrom(
+                  primary: const Color(0xFFEB1555)
                 ),
               ),
             )
